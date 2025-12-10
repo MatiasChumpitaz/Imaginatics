@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imaginatics - Posters</title>
+
+  <!-- Google Fonts (puedes cambiar) -->
+  <link href="css/fonts.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/imaginatics.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="span-header">
+      <SPAn>Ahora comprar por WhatsApp</SPAn>
+    </div>
+    
+    <div class="topbar">
+      <div class="shop-name">Tienda Virtual</div>
+      <div class="contact">Contact: <a href="tel:960113229">960 113 229</a></div>
+      
+      <div class="item-ub">
+        <img src="img/user-ubi.svg" alt="">
+        <span>ubicar tienda</span></div>
+
+      <div class="item-ub">
+        <img src="img/user-deseos.svg" alt="">
+        <span>mis deseos</span></div>
+        
+    </div>
+
+    <nav class="main-nav">
+      <div class="logo"> <img src="img/logo pagina.svg" alt="logo" /> </div>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nuestros Servicios</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Cuadros</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <input id="search" placeholder="Buscar en la tienda..." />
+        <button id="cart-btn" title="Ver carrito">🛒 <span id="cart-count">0</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-frame left">
+        <img src="img/imagen principal pagina web.webp" alt="poster" />
+      </div>
+
+      <div class="hero-content">
+        <h1>NUESTRA<br><span>TIENDA</span><br>ONLINE</h1>
+        <p class="lead">¡Lo ultimo en posters, lo ultimo en tu pared!</p>
+      </div>
+
+      <div class="hero-frame right">
+        <img src="img/imagen representativo arte pagina.jpg" alt="poster" />
+      </div>
+    </section>
+
+    <section class="slider-ofertas">
+      <div class="slide"> Oferta Semana: Posters desde S/35</div>
+      <div class="slide"> Envío Gratis por compras mayores a S/100</div>
+      <div class="slide">✨ Cuadros Personalizados – ¡Pide tu diseño!</div>
+    </section>
+
+    <!-- NUEVOS / PRODUCTOS -->
+    <section class="productos">
+      <div class="section-header">
+        <h2>¡NUEVOS!</h2>
+        <button class="btn-ver" id="ver-todos">Ver Todos</button>
+      </div>
+
+      <div id="product-grid" class="grid"></div>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <section class="categorias">
+      <div class="section-categorias">
+        <h3>Por Categoría</h3>
+      </div>
+      <div class="cat-grid">
+        <div class="cat-card"> <img src="img/comics pagina.jpg" alt=""><span></span></div>
+        <div class="cat-card"> <img src="img/dibujo.jpg" alt=""><span></span></div>
+        <div class="cat-card"> <img src="img/musica pagina.jpg" alt=""><span></span></div>
+        <div class="cat-card"> <img src="img/peliculas PAGINA WEB.jpg" alt=""><span></span></div>
+      </div>
+    </section>
+
+    <!-- MAS PEDIDOS -->
+    <section class="mas-pedidos">
+      <div class="section-pedidos">
+        <h3>¡Mas Pedidos!</h3>
+      </div>
+
+      <div class="grid" id="best-grid"></div>
+    </section>
+
+    <!-- PROMO PERSONALIZADOS -->
+    <section class="promo">
+      <div class="promo-left">
+        <h4>¿Prefieres Cuadros Personalizados con tus Imágenes?</h4>
+        <p>Dale un toque unico con cuadros personalizados que reflejen tu estilo y pasión. ¡Pide tu demo Gratis ahora!</p>
+        <button class="btn-primary">¡Quiero un Cuadro Personalizado!</button>
+      </div>
+      <div class="promo-right">
+        <img src="img/imagen representativo arte pagina.jpg" alt="promo" />
+      </div>
+    </section>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="descripcion">
+      <h4>En Imaginatics te ofrecemos la Mejor Colección de Cuadros Decorativos</h4>
+      <p>Explorar más de 1,200 cuadros decorativos estilo poster de tus series, películas, animes, música y videojuegos favoritos.</p>
+    </section>
+
+    <section class="descripciones">
+      <h4>Cuadros Decorativos listos para colocar en tu pared</h4>
+      <p>En Imaginatics te ofrecemos los diseños mas limpios, impresos en alta calidad y listos para colocar en tu pared sin necesidad de clavos o herramientas.</p>
+      <p>Ya sean para tu sala, habitacion, oficina o setup gamer, nuestros posters son un medio perfecto para expresar tu estilo.</p>
+    </section>
+
+    <!-- BANNER GARANTÍAS -->
+<section class="garantias">
+  <div class="g-item">
+    <img src="img/garantia.png" alt="">
+    <h4>Garantía</h4>
+    <p>Tu cuadro llega protegido y sin daños garantizado.</p>
+  </div>
+  <div class="g-item">
+    <img src="img/envio.png" alt="">
+    <h4>Envíos a todo el Perú</h4>
+    <p>Trabajamos con Olva Courier y Cargui Perú.</p>
+  </div>
+  <div class="g-item">
+    <img src="img/pago.png" alt="">
+    <h4>Pagos Seguros</h4>
+    <p>Yape, Plin, transferencia y contraentrega.</p>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="testimonios">
+  <h3>Opiniones de nuestros clientes</h3>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <p>"El cuadro llegó incluso mejor de lo que esperaba, sin duda vale la pena comprar posters aqui. Excelente calidad!"</p>
+      <span>- Fatima Q.</span>
+    </div>
+    <div class="testi-card">
+      <p>"Atención rápida por WhatsApp y envío súper seguro, mi poster de Mbappe se ve increible. Recomendado."</p>
+      <span>- Juan R.</span>
+    </div>
+    <div class="testi-card">
+      <p>"Los colores de mi poster se ven increíbles. Volveré a comprar aqui."</p>
+      <span>- Mariana L.</span>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"> <img src="img/logo pagina.svg" alt="logo" /> </div>
+        <p>La mayor colección de cuadros de series, peliculas, juegos, animes y más.</p>
+      </div>
+
+      <div>
+        <h5>Categorías</h5>
+        <ul>
+          <li>Animes</li><li>Comics</li><li>Películas</li><li>Videojuegos</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Información</h5>
+        <ul>
+          <li>Cuadros personalizados</li><li>Preguntas Frecuentes</li><li>WhatsApp Oficial</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Síguenos</h5>
+        <div class="socials-img">
+          <img src="img/facebook.png" alt="" srcset="">
+          <img src="img/instagram.png" alt="" srcset="">
+          <img src="img/wasap pagina.png" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© Imaginatics 2025</div>
+  </footer>
+
+  <!-- Fixed WhatsApp floating -->
+  <a class="whatsapp-float" href="https://wa.me/51960113229" target="_blank" title="Comprar por WhatsApp">💬</a>
+
+  <script src="imaginatics.js"></script>
+</body>
+</html>
